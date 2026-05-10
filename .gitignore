@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+feast_env/
+env/
+venv/
+ENV/
+
+# Feast
+feature_repo/data/
+feature_repo/.feast/
+*.db
+*.db-shm
+*.db-wal
+
+# Data
+data/*.parquet
+data/*.csv
+dataset/
+*.parquet
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Redis
+dump.rdb
+
+# Logs
+*.log
